@@ -3,6 +3,8 @@ import requests
 
 from datetime import datetime, timedelta
 
+## TEMPLATE PARA O CODIGO DE IA
+
 class organizar_lag:
     def __init__(self, arquivo_pandas_ativo, num_dias_lag, num_dias_previsao):
         dados_acoes = pd.read_csv(arquivo_pandas_ativo + ".csv")
